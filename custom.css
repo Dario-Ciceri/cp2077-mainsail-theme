@@ -1,0 +1,243 @@
+#nav-header .v-toolbar__title {
+    font-size: 24px; 
+    vertical-align: middle;
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 1px 1px 1px cyan, 0 0 50px pink, 0 0 3px white, 0 -2px purple;
+}
+
+
+/*console send button*/
+.v-application .info {
+    background-color: yellow !important;
+    border-color: yellow !important;
+}
+
+/* bar color */
+.v-application .primary {
+    background-color: yellow !important;
+    border-color: yellow !important;
+}
+
+/* column text color */
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    color: yellow;
+}
+
+/*emergency button*/
+.v-application .error {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+}
+
+/*toolbar title*/
+.v-toolbar__title {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #d800ff;
+    text-shadow: 1px 1px 0px yellow, 0 0 5px yellow, 0 0 3px white, 0 1px cyan;
+}
+
+/*toolbar title font*/
+.v-toolbar--dense .v-toolbar__content, .v-toolbar--dense .v-toolbar__extension {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Courier New', monospace;
+}
+
+.v-btn:not(.v-btn--outlined).accent, .v-btn:not(.v-btn--outlined).error, .v-btn:not(.v-btn--outlined).info, .v-btn:not(.v-btn--outlined).primary, .v-btn:not(.v-btn--outlined).secondary, .v-btn:not(.v-btn--outlined).success, .v-btn:not(.v-btn--outlined).warning {
+    color: #00a1ff;
+}
+
+/* icon color */
+.mdi-set, .mdi:before {
+    display: inline-block;
+    font: normal normal normal 24px/1 Material Design Icons;
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #00a1ff;
+}
+
+/*file name color*/
+.v-data-table>.v-data-table__wrapper>table>tbody>tr>td, .v-data-table>.v-data-table__wrapper>table>tfoot>tr>td, .v-data-table>.v-data-table__wrapper>table>thead>tr>td {
+    font-size: .875rem;
+    height: 48px;
+    color: #ff00ff;
+}
+
+.prism-editor-wrapper .prism-editor__editor, .prism-editor-wrapper .prism-editor__textarea {
+    margin: 0;
+    border: 0;
+    background: none;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    display: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    -webkit-font-variant-ligatures: inherit;
+    font-variant-ligatures: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    -moz-tab-size: inherit;
+    -o-tab-size: inherit;
+    tab-size: inherit;
+    text-indent: inherit;
+    text-rendering: inherit;
+    text-transform: inherit;
+    white-space: pre-wrap;
+    word-wrap: keep-all;
+    overflow-wrap: break-word;
+    padding: 0;
+    color: #ff00e0;
+}
+
+/*nav title color*/
+
+nav ul.navi .nav-link {
+    display: block;
+    color: yellow;
+    border-radius: .5em;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    opacity: .85;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    text-decoration: none;
+    margin: .5em 1em;
+    text-shadow: 1px 1px 0px #ff00ff, 0 0 50px yellow, 0 0 3px white, 0 1px cyan;
+
+}
+
+/* nav title color background color */
+nav ul.navi .nav-link.router-link-active, nav ul.navi .nav-link:hover, nav ul.navi li.active>.nav-link {
+    background: rgb(122 20 122 / 75%);
+    opacity: 1;
+}
+
+/* nav title child background color */
+nav ul.navi>li>ul.child .nav-link.router-link-active, nav ul.navi>li>ul.child .nav-link:hover {
+    background: rgb(122 20 122 / 55%);
+}
+
+/* set temperature text color */
+.theme--dark.v-input, .theme--dark.v-input input, .theme--dark.v-input textarea {
+    color: #ff00ff;
+}
+
+/* build version text color */
+.v-application .text-body-2, .v-application .text-button {
+    font-size: .875rem!important;
+    font-family: Roboto,sans-serif!important;
+    color: #ff00ff;
+    text-shadow: 1px 1px 0px yellow, 0 0 50px yellow, 0 0 3px white, 0 1px cyan;
+}
+
+/* control panel colors */
+.v-application .warning {
+    background-color: #ff00ff !important;
+}
+.theme--dark.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn {
+    border-color: #00a1ff!important;
+}
+
+/* text editor text color */
+.theme--dark.v-btn {
+    color: #ff00ff;
+}
+
+/* sidebar opacity */
+.v-navigation-drawer__content {
+    z-index: 10;
+    background-color: #00000063;
+}
+
+/* files text color */
+.v-card__title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: .0125em;
+    line-height: 2rem;
+    word-break: break-all;
+    color: yellow;
+    text-shadow: 1px 1px 0px #ff00ff, 0 0 5px yellow, 0 0 3px white, 0 1px cyan;
+    font-family: 'Courier New', monospace;
+}
+
+/*icons*/
+
+.mdi-grid:before {
+    content: "\F02C1";
+}
+
+.mdi-information:before {
+    content: "\F06E1";
+}
+
+.mdi-fan:before {
+    content: "\F0210";
+}
+
+.mdi-printer-3d-nozzle:before {
+    content: "\F042B";
+}
+
+.mdi-wrench:before {
+    content: "\F09D1";
+}
+
+.mdi-console-line:before {
+    content: "\F018D";
+}
+
+.mdi-webcam:before {
+    content: "\F06D0";
+}
+
+.mdi-code-tags:before {
+    content: "\F072B";
+}
+
+.mdi-connection:before {
+    content: "\F1394";
+}
+
+.mdi-printer-3d-nozzle-alert:before {
+    content: "\F0E5B";
+}
+
+.mdi-alert-circle-outline:before {
+    content: "\F0C89";
+}
+
+.mdi-thermometer-lines:before {
+    content: "\F029A";
+}
+
+.mdi-stack-overflow:before {
+    content: "\F0770";
+}
