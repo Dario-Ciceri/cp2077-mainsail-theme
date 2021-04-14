@@ -7,7 +7,8 @@ You need mainsaill already installed on your machine, open your browser and sear
 
 In mainsail: go to settings -> machine -> add a folder called .theme
 
-Make sure to check show hidden files
+>Make sure to check show hidden files
+>
 ![hidden files](https://github.com/Dario-Ciceri/cp2077-mainsail-theme/blob/main/.images/t.png)
 
 Now, inside .theme, add these files:
