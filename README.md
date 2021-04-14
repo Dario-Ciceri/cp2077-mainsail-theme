@@ -10,13 +10,10 @@ Make sure to check show hidden files
 ![hidden files](https://github.com/Dario-Ciceri/cp2077-mainsail-theme/blob/main/.images/t.png)
 
 Now, inside .theme, add these files:
-custom.css
 
-favicon-32x32.png
-
-main-background.png
-
-sidebar-background.gif
-
-sidebar-logo.png
+    custom.css
+    favicon-32x32.png
+    main-background.png
+    sidebar-background.gif
+    sidebar-logo.png
 
